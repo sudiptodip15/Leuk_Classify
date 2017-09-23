@@ -15,7 +15,7 @@ gene interactions in leukemia. By suitably adjusting the sparsity of the undirec
 - Download the git folder and run `download_data.sh` bash script. This will download the data in the folder `Data`.
 - cd Classify and run `Run_Classify.sh` bash script to generate test-train split, data cleaning and running classifiers. This will also generate the plots. Then cd ..
 - cd Graphical_Lasso and run `Run_GLasso.sh` bash script to extract a subset of genes from cancer patients. You can modify the subset by changing few lines of code in `Cancer_DataGen.py`. 
-Also I have provided a helper code to choose a reasonable sparsity level in Graphical Lasso based on output number of connected componets in graph 
+Also I have provided a helper code to choose a reasonable sparsity level in Graphical Lasso based on output number of connected components in graph.
 
 
 # Performance 
